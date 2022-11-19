@@ -1,8 +1,8 @@
-#Uruchamianie skryptu
+# Uruchamianie skryptu
 ```shell script
 python strzelanka.py list.txt
 ```
-#Zawartość listy
+# Zawartość listy
 punkty.artysta-album
 ```
 uzytkownik1
