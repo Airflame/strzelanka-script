@@ -6,8 +6,8 @@ for element in open(sys.argv[1], "r", encoding="utf-8").readlines():
     if "-" not in element:
         user = element.strip()
     else:
-        album = element.split(".")[-1].strip()
-        points = int(element.split(".")[0])
+        album = element.split(";")[-1].strip()
+        points = int(element.split(";")[0])
         if album in albums_points:
             albums_points[album] += points
         else:
